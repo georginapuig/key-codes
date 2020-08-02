@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vmin;
+}
+
+.type {
+  margin: 0;
+  font-size: 1.7em;
+  color: #706c61;
+}
+
+.code {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 18em;
+  font-weight: 700;
+  color: #333333;
+}
+
+.key {
+  font-size: 2em;
+  color: #706c61;
+  padding: 5px 13px;
+  border-radius: 3px;
+  background-color: rgb(230, 230, 230);
+}
