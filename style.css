@@ -14,10 +14,17 @@ body {
   height: 100vh;
 }
 
-.type {
-  margin: 0;
-  font-size: 1.7em;
-  color: #706c61;
+input {
+  display: none;
+  width: 12rem;
+  padding-top: 13px;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: rgb(143, 143, 143)
+}
+
+input:focus {
+  border-color: #333;
 }
 
 .code {
@@ -28,7 +35,9 @@ body {
   color: #333333;
 }
 
-.key {
+.key,
+.press-key {
+  display: none;
   font-size: 2em;
   color: #706c61;
   padding: 5px 13px;
