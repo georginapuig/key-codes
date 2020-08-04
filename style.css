@@ -49,7 +49,7 @@ input:focus {
 
 @media (max-width: 600px) {
   .code {
-    font-size: 11em;
+    font-size: 12em;
   }
 
   .key {
