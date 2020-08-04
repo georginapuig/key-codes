@@ -11,10 +11,10 @@ if (window.screen.width >= 1024 && window.screen.height >= 768) {
 }
 
 document.addEventListener('keypress', (e) => {
-  console.log(e.key);
+  console.log(e.charCode);
   input.value = '';
   pressKey.style.display = 'none';
-  code.innerHTML = e.which;
+  code.innerHTML = e.charCode;
 
   // letter
   if (e.key) {
