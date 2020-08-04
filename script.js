@@ -14,7 +14,7 @@ document.addEventListener('keypress', (e) => {
   console.log(e.key);
   input.value = '';
   pressKey.style.display = 'none';
-  code.innerHTML = e.keyCode;
+  code.innerHTML = e.which;
 
   // letter
   if (e.key) {
