@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 input {
@@ -27,10 +27,12 @@ input:focus {
 }
 
 .code {
+  /* border: 1px solid red; */
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-size: 18em;
   font-weight: 700;
+  line-height: 1;
   color: #333333;
 }
 
@@ -47,7 +49,6 @@ input:focus {
 @media (max-width: 600px) {
   .code {
     font-size: 11em;
-    margin: 0;
   }
 
   .key {
