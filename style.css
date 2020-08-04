@@ -43,3 +43,14 @@ input:focus {
   border-radius: 3px;
   background-color: rgb(230, 230, 230);
 }
+
+@media (max-width: 600px) {
+  .code {
+    font-size: 11em;
+    margin: 0;
+  }
+
+  .key {
+    font-size: 1.6em;
+  }
+}
