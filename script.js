@@ -10,27 +10,28 @@ if (window.screen.width >= 1024 && window.screen.height >= 768) {
   input.style.display = 'block';
 }
 
-const printLetter = (e) => {
-  if (e.key) {
-    key.style.display = 'block';
-    key.innerHTML = e.key;
-  }
-};
-
 document.addEventListener('textInput', (e) => {
   console.log(e.data.charCodeAt(0));
   input.value = '';
   pressKey.style.display = 'none';
   code.innerHTML = e.data.charCodeAt(0);
 
-  printLetter(e);
+  if (e.data) {
+    key.style.display = 'block';
+    key.innerHTML = e.data;
+  }
 });
 
 document.addEventListener('keypress', (e) => {
   console.log(e.key);
+  input.value = '';
   pressKey.style.display = 'none';
   code.innerHTML = e.keyCode;
 
-  printLetter(e);
+  // letter
+  if (e.key) {
+    key.style.display = 'block';
+    key.innerHTML = e.key;
+  }
 });
 
