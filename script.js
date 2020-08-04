@@ -10,7 +10,7 @@ if (window.screen.width >= 1024 && window.screen.height >= 768) {
   input.style.display = 'block';
 }
 
-document.addEventListener('keyup', (e) => {
+document.addEventListener('keypress', (e) => {
   console.log(e.key);
   input.value = '';
   pressKey.style.display = 'none';
