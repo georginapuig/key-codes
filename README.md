@@ -1,3 +1,3 @@
-# key-codes
+# key-codes ⌨️
 
-Press any key to get the Javascript key code.
+Press a key to see the corresponding Javascript key code. 
